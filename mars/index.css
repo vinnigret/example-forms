@@ -1,0 +1,224 @@
+
+
+body
+        {margin: 25px auto 100px;
+        width:960px;
+        position:relative;
+        font-family: Arial, sans-serif;
+        padding-left:50px;  }
+
+h1
+        {font-size: 30px;
+        font-weight: bold;
+        margin-bottom:25px;
+        }
+
+form
+        {width:640px;
+        margin-top:0;
+        padding: 30px 100px 35px 20px;
+        box-sizing: border-box;
+        background: linear-gradient(to top, #a8b2ce, #d7cad8, #d7cad8 180px, #ffeaea 180px,#ffe5e4 80%, #edd3d2 90%);
+        position:absolute;
+        z-index:-2;}
+
+input[type="text"] , input[type="email"], input[type="tel"]
+        {width:310px;
+        font-size:18.25px;
+        padding-left:5px;
+        border:1px solid #c3c3c3;
+        border-bottom:none;
+        box-shadow: inset 0px 0px 0px 1px #dddddd, 0px -1px 0px 0px #5b5b5b;
+        }
+input[type="checkbox"]
+        {background:linear-gradient(white, #efefef 50%, #e3e3e3 50%,  #ebebeb);
+        border:none;
+        border-radius: 3px;
+        }
+input[type="submit"]
+        {width:280px;
+        height:55px;
+        border-radius:15px;
+        margin-left:160px;
+        font-size:25.2px;
+        font-weight:600;
+        color: black;
+        border:none;
+        text-shadow: 0px 0.5px 0px white;
+        box-shadow: inset 0px -27px 0 0 #d9dae0;
+        background: linear-gradient(#e5e6ed, #dcdce2);
+        }
+input[type="submit"]:disabled
+{color:#a1a2a7;}
+
+
+select
+        {border-radius: 3px;
+          font-size:11.9px;
+        }
+
+label
+        {font-size:12.9px;
+        }
+
+#lastname
+        {margin-left:105px;
+        margin-bottom:5px;}
+#prev-lastname
+        {margin-left:164px;
+        margin-bottom:15px;}
+#firstname
+        {margin-left:135px;
+        margin-bottom:15px;}
+#middlename
+        {margin-left:104px;
+        margin-bottom:10px;}
+.middlename-warning
+        {padding-top:10px;
+        padding-bottom:15px;
+        margin-left:150px;
+        font-size:12.9px;
+        font-weight:500;
+        width:330px;
+        padding-left:15px;
+        line-height:18px;
+        background-color:#ffe1e1;
+        margin-bottom:20px;
+        position:relative;
+              }
+  .effect6
+        {position:relative;
+                }
+  .effect6:after
+    {
+    	  content:"";
+        z-index:-1;
+        position:absolute;
+        box-shadow:0 0 10px rgba(0,0,0,0.6);
+        width:335px;
+        height:20px;
+        bottom:0;
+        left:5px;
+        right:0px;
+        border-radius:500px / 20px;
+    }
+
+#latinlastname
+        {margin-left:40px;
+        margin-bottom:15px;}
+#latinfirstname
+        {margin-left:70px;
+        margin-bottom:5px;}
+#date_of_birth
+        {width:333px;
+        margin-left:55px;
+        display:inline-block;
+        border-radius: 3px;}
+.date_of_birth
+        {margin-bottom:10px;
+        margin-top:15px;
+        border-radius: 3px;
+        background:linear-gradient(white, #efefef 50%, #e3e3e3 50%,  #ebebeb);}
+.date_of_birth:first-child
+        {margin-right:4px;
+        margin-left:10px;}
+.date_of_birth:nth-child(2)
+        {margin-right:5px;}
+.date_of_birth_warning
+        {margin-top:2px;
+        margin-left:155px;
+        font-size:14.4px;
+        line-height: 18px;
+        background-color:#feffdc;
+        padding:15px 20px 15px 10px;
+        width:333px;
+        box-sizing: border-box;
+        display:none;
+        }
+.gender{
+        margin-top:10px;
+        margin-bottom:20px;
+        height:25px;
+        border:none;
+        width:78px;
+        background:linear-gradient(white, #efefef 50%, #e3e3e3 50%,  #ebebeb);
+        }
+.gender:first-child
+        {margin-left:138px;
+        border-radius: 5px 0 0 5px;}
+.gender:nth-child(2)
+        {border-radius: 0 5px 5px 0;}
+
+#family-male, #family-female
+        {margin-left:30px;
+        width:160px;
+        margin-bottom:20px;
+        border-radius: 3px;
+        background:linear-gradient(white, #efefef 50%, #e3e3e3 50%,  #ebebeb);
+          }
+
+#family-female
+{display:none;}
+
+#education
+        {margin-left:80px;
+        margin-bottom:35px;
+        width:152px;
+        border-radius: 3px;
+      background:linear-gradient(white, #efefef 50%, #e3e3e3 50%,  #ebebeb);}
+.quote
+        {margin-right:50px;
+        position:absolute;
+        width:170px;
+        top:65px;
+        right:0px;
+        padding:0;}
+#contact-info
+        {font-size:20.2px;
+          font-weight: 800;
+        margin-left:162px;
+        margin-bottom: 15px;}
+#phone
+        {margin-left:71px;
+        width:315px;
+        margin-bottom:15px;
+        }
+#email
+        {width:315px;;
+        margin-left:41px;
+        margin-bottom:65px;
+        height:25px;}
+#email:invalid
+{color:red;}
+#rules-checked
+        {margin-left:160px;}
+#rules
+        {width:323px;
+        display:inline-block;
+        vertical-align: top;
+        margin-bottom:23px;
+        padding-top:3px;
+        }
+.quote h2
+        {font-size:16px;
+        font-weight:bold;
+        margin:0;
+        margin-bottom:5px;
+        }
+.quote p
+        {font-size:12.9px;
+        margin:0;
+        line-height:18px;
+        }
+
+
+/*EXTRA STYLES*/
+.gender_clicked
+        {  margin-top:10px;
+          margin-bottom:20px;
+          height:25px;
+          border:none;
+         color:white;
+         background:linear-gradient(#646462, #a4a4a2);}
+.date_of_birth_old
+{background-color:#feffdc;}
